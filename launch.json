@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "WindowShopperToken",
+    "name": "IMDwindowshopper",
+    "symbol": "WWW",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 6000,
+    "initialMarketCapWei": "1000000000000000000000",
+    "remainderTo": "0x3ed212257958724579f13b3dba74a07ac6007903"
+  },
+  "notes": "IMDwindowshopper (WWW). WindowShopperToken is a fixed-supply ERC-20 (OpenZeppelin ERC20 + ERC20Burnable + ERC20Permit) with 18 decimals. Its constructor takes no arguments and mints 1,000,000,000 WWW (1e27 minor units) once to msg.sender, the launch factory; nothing can mint afterwards. There is no owner, no roles, no pause, no blocklist, no transfer fee and no upgrade path; holders may burn only their own tokens or tokens they hold an allowance for. No application contracts are deployed. Community: X x.com/windowshoppermd"
+}
